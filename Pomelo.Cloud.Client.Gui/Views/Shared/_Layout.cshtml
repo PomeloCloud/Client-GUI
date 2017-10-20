@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/styles/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/styles/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="sidebar-left">
+        <div class="logo-outer small">
+            <img src="~/images/logo.png" />
+        </div>
+        <div class="menu-list">
+            <div class="menu-item orange active">
+                <i class="fa fa-pie-chart"></i>
+                Storage
+            </div>
+            <div class="menu-item green">
+                <i class="fa fa-database"></i>
+                Database
+            </div>
+            <div class="menu-item yellow">
+                <i class="fa fa-globe"></i>
+                Web App
+            </div>
+            <div class="menu-item cyan">
+                <i class="fa fa-microchip"></i>
+                GPU Computing
+            </div>
+            <div class="menu-item pink">
+                <i class="fa fa-mixcloud"></i>
+                CDN
+            </div>
+            <div class="menu-item purple">
+                <i class="fa fa-balance-scale"></i>
+                Load Balance
+            </div>
+            <div class="menu-item blue">
+                <i class="fa fa-money"></i>
+                Billing
+            </div>
+            <div class="menu-item gray">
+                <i class="fa fa-sign-out"></i>
+                Sign Out
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-right">
+        @RenderBody()
+    </div>
+</body>
+</html>
