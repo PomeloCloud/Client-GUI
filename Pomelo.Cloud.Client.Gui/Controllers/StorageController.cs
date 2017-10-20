@@ -12,5 +12,10 @@ namespace Pomelo.Cloud.Client.Gui.Controllers
         {
             return View();
         }
+
+        public IActionResult Show()
+        {
+            return View();
+        }
     }
 }
